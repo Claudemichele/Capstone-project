@@ -1,0 +1,32 @@
+#Machine Learning Engineer Nanodegree
++				      
+## Capstone Project								
++
+Capstone project for Udacity’s course Machine Learning Engineer Nanodegree
++
++## Problem Statement
++
++This project will use a deep learning Convolutional Neural Network to classify flowers and writing an algorithm for an App.
++
++## Dataset
++
++The dataset, 102 category flower, can be Downloaded from the website:  http://www.robots.ox.ac.uk/~vgg/data/flowers/102/
++
++Downloaded: 102flowers.tgz(dataset images), 102segmentations.tgz(image segmentation), imagelabels.mat(image labels) and setid.mat(the data splits).
++
++## Scripts
++
++Several jupyter notebooks are available for this project:
++
++* ```CNN.ipynb```: use this script to run the CNN model
++* ```MLP_flower.ipynb```: use this script to run the MLP model
++* ```CNN(transfer learning).ipynb```: use this script to run the CNN transfer learning model and test the algorithm for the App
++* ```prep_bottleneck_features.ipynb```: use this script to separate training and validation datasets into folders and sub-folders (to be used for ImageDataGenerator). There was an anomaly in the dataset (112 classes found instead of 102) which was fixed manually by cutting images(from the last 30 images in the datasets) and pasting them next to similar images.
++
++### Report
++
++* A final report explaining this project, the models and their implementation, steps, results and problem encountered is available as ```Capstone-report.pdf```.
++
++### License
++
++The code for this project is open source and available under the terms and conditions of the license in this repository.
